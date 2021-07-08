@@ -1,70 +1,157 @@
-# Getting Started with Create React App
+# Random Image Generator and Sharing App 
+This is a [Random Image Generator and Sharing App ](https://6jbps.csb.app/home) done with [React](https://reactjs.org/). All tasks are saved into browser's local storage only.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visual Representation of My Project:
 
-## Available Scripts
+![1](https://user-images.githubusercontent.com/43074604/124994889-63c4e200-e068-11eb-89d0-b2710573292d.PNG)
 
-In the project directory, you can run:
+## Card Code of Home Page
+```jsx
+export const Home = () => {
+  return (
+    <div>
+      <h1 className="fw-bold" style={{ textAlign: "center", paddingTop: "15px" }}> Important Features!</h1>
 
-### `yarn start`
+      <CardGroup style={{ padding: '30px' }}>
+        <Card>
+          <Card.Img variant="top" src="https://source.unsplash.com/WLUHO9A_xik/1500x500" />
+          <Card.Body>
+            <Card.Title>Random Image</Card.Title>
+            <Card.Text>
+              Every time you reload or land on the page, you will see a new image. There's a button also to change the image.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 5 mins ago</small>
+          </Card.Footer>
+        </Card>&ensp;&ensp;
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![2](https://user-images.githubusercontent.com/43074604/124994897-66273c00-e068-11eb-9e27-bc8f568e2a3e.PNG)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##  iPhone X Visualization of my project
+![3](https://user-images.githubusercontent.com/43074604/124994903-68899600-e068-11eb-9724-9ce0b44323fe.PNG)
 
-### `yarn test`
+## Image page of my project
+Here you can change image by clicking "Change Image" button and also you can share the image on [Twitter](https://twitter.com/home)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![4](https://user-images.githubusercontent.com/43074604/124994906-6a535980-e068-11eb-9dc8-d9e8b50a0351.PNG)
 
-### `yarn build`
+## Download page of my website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![5](https://user-images.githubusercontent.com/43074604/124994912-6cb5b380-e068-11eb-905e-3c4741e9b6a1.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Footer section of my website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![6](https://user-images.githubusercontent.com/43074604/124994921-6fb0a400-e068-11eb-916e-8020f2fb8f50.PNG)
 
-### `yarn eject`
+## About page of my website
+All details are included in "About" page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![7](https://user-images.githubusercontent.com/43074604/124994928-717a6780-e068-11eb-895b-01221865aebf.PNG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![8](https://user-images.githubusercontent.com/43074604/124994939-73442b00-e068-11eb-9629-651149a2b58a.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Surface Duo Visualization of My Website
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![9](https://user-images.githubusercontent.com/43074604/124994946-74755800-e068-11eb-9f2b-35fd4e18f032.PNG)
+
+![10](https://user-images.githubusercontent.com/43074604/124994954-763f1b80-e068-11eb-925f-fed7c8300559.PNG)
+
+### Advantage of Random Image Generator and Sharing App :
+
+* Every time you reload or land on the page, you will see a new image. There's a button also to change the image.
+* There's a button to tweet the image. You can tweet image directly by using our website.
+*  Our website gives you the advantage of downloading the image.
+
+## About React JS
+![react](https://user-images.githubusercontent.com/43074604/124001629-a77b7400-d9f6-11eb-9ba7-6fd4320a961c.png)
+
+ReactJS is the highly used open-source JavaScript Library. It helps in creating impressive web apps that require minimal effort and coding. The main objective of ReactJS is to develop User Interfaces (UI) that improves the speed of the apps. 
+
+### Advantage of ReactJS :
+
+* It is easy to learn.
+* A virtual DOM is used.
+* There are reusable components.
+* Operates on a one-way data flow.
+* SEO friendliness.
+
+
+### Cons of ReactJS :
+
+* JSX syntax.
+* Fast development pace.
+* Somewhat slow documentation.
+
+ReactJS is a very efficient development framework that can be used to help developers create faster web apps with powerful User Interfaces.There are pros and cons of React, but I think many of the cons associated with ReactJS are due to people not liking rapid changes. 
+
+There is nothing wrong with constant development. You could make the argument that rapid development is one of the strongest advantages of React. Technology improves at an  exponential rate. Newer technology will develop even more rapidly than ReactJS. Development is an exciting step towards the new future of tech. 
+
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+The project can be built with npm or yarn, so choose one of the approach bellow in case you don't have any installed on your system.
+
+npm is distributed with Node.js which means that when you download [Node.js](https://nodejs.org/en/), you automatically get npm installed on your computer. Download Node.js
+or
+
+Yarn is a package manager built by Facebook Team and seems to be faster than npm in general. Download Yarn
+
+### Installing
+
+To download the project follow the instructions bellow :
+ 
+```bash
+git clone https://github.com/parizat-hridi/Solo-Traveler-Website-with-React.git
+```
+
+Install dependencies and run with:
+
+npm
+
+```bash
+npm install
+npm start
+```
+
+or
+
+yarn
+
+```bash
+yarn install
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Versions
+v1.0
+
+* Default project implementation
+
+v1.1
+
+* Change to material UI based interface
+* Task transitions animations
+* Remove tasks capabilities
+
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about ReactJS, take a look at the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Learn React](https://www.codecademy.com/learn/react-101?g_network=g&g_device=c&g_adid=518718871326&g_keyword=%2Blearn%20%2Breactjs&g_acctid=243-039-7011&g_adtype=search&g_adgroupid=126771679424&g_keywordid=kwd-301685830785&g_campaign=ROW+Language%3A+Basic+-+Broad&g_campaignid=10947274266&utm_id=t_kwd-301685830785:ag_126771679424:cp_10947274266:n_g:d_c&utm_term=%2Blearn%20%2Breactjs&utm_campaign=ROW%20Language%3A%20Basic%20-%20Broad&utm_source=google&utm_medium=paid-search&utm_content=518718871326&hsa_acc=2430397011&hsa_cam=10947274266&hsa_grp=126771679424&hsa_ad=518718871326&hsa_src=g&hsa_tgt=kwd-301685830785&hsa_kw=%2Blearn%20%2Breactjs&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwrPCGBhALEiwAUl9X074rDKZ1EAZS_HYOP5T_yA1bF2H2gWC6s-Efyj58yZDtHcvG4rJhShoCuLEQAvD_BwE) - learn basics of React.
+- [ReactJS Tutorial](https://www.javatpoint.com/reactjs-tutorial) - learn ReactJS.
 
-### Code Splitting
+Your feedback and contributions are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Sharing Project Experience!
+The project was such a wonderful experience. It was challenging, meaningful, and deeply fulfilling✨
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

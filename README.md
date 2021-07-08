@@ -107,7 +107,7 @@ Yarn is a package manager built by Facebook Team and seems to be faster than npm
 To download the project follow the instructions bellow :
  
 ```bash
-git clone https://github.com/parizat-hridi/Solo-Traveler-Website-with-React.git
+https://github.com/parizat-hridi/Random-Image-Generator-and-Sharing-App.git
 ```
 
 Install dependencies and run with:

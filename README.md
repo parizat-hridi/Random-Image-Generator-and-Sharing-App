@@ -1,5 +1,5 @@
 # Random Image Generator and Sharing App 
-This is a [Random Image Generator and Sharing App ](https://pxuqf.csb.app/home) done with [React](https://reactjs.org/). All tasks are saved into browser's local storage only.
+This is a [Random Image Generator and Sharing App ](https://6jbps.csb.app/home) done with [React](https://reactjs.org/). All tasks are saved into browser's local storage only.
 
 ## Visual Representation of My Project:
 
@@ -29,23 +29,23 @@ export const Home = () => {
 
 ![2](https://user-images.githubusercontent.com/43074604/124994897-66273c00-e068-11eb-9e27-bc8f568e2a3e.PNG)
 
-##  iPhone X Visualization of My Project
+##  iPhone X Visualization of my project
 ![3](https://user-images.githubusercontent.com/43074604/124994903-68899600-e068-11eb-9724-9ce0b44323fe.PNG)
 
-## Image Page of My Project
+## Image page of my project
 Here you can change image by clicking "Change Image" button and also you can share the image on [Twitter](https://twitter.com/home)
 
 ![4](https://user-images.githubusercontent.com/43074604/124994906-6a535980-e068-11eb-9dc8-d9e8b50a0351.PNG)
 
-## Download Page of My Website
+## Download page of my website
 
 ![download](https://user-images.githubusercontent.com/43074604/125087627-741fa000-e0ee-11eb-8caa-18d8baacc1b4.PNG)
 
-## Footer Section of My Website
+## Footer section of my website
 
 ![6](https://user-images.githubusercontent.com/43074604/124994921-6fb0a400-e068-11eb-916e-8020f2fb8f50.PNG)
 
-## About Page of My Website
+## About page of my website
 All details are included in "About" page
 
 ![7](https://user-images.githubusercontent.com/43074604/124994928-717a6780-e068-11eb-895b-01221865aebf.PNG)
@@ -61,8 +61,8 @@ All details are included in "About" page
 ### Advantage of Random Image Generator and Sharing App :
 
 * Every time you reload or land on the page, you will see a new image. There's a button also to change the image.
-* There's a button to tweet the image. You can tweet image directly by using my website.
-* My website gives you the advantage of downloading the image.
+* There's a button to tweet the image. You can tweet image directly by using our website.
+*  Our website gives you the advantage of downloading the image.
 
 ## About React JS
 ![react](https://user-images.githubusercontent.com/43074604/124001629-a77b7400-d9f6-11eb-9ba7-6fd4320a961c.png)
@@ -107,7 +107,7 @@ Yarn is a package manager built by Facebook Team and seems to be faster than npm
 To download the project follow the instructions bellow :
  
 ```bash
-https://github.com/parizat-hridi/Random-Image-Generator-and-Sharing-App.git
+git clone https://github.com/parizat-hridi/Solo-Traveler-Website-with-React.git
 ```
 
 Install dependencies and run with:

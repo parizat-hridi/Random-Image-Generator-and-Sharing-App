@@ -39,7 +39,7 @@ Here you can change image by clicking "Change Image" button and also you can sha
 
 ## Download Page of My Website
 
-![5](https://user-images.githubusercontent.com/43074604/124994912-6cb5b380-e068-11eb-905e-3c4741e9b6a1.PNG)
+![download](https://user-images.githubusercontent.com/43074604/125087627-741fa000-e0ee-11eb-8caa-18d8baacc1b4.PNG)
 
 ## Footer Section of My Website
 

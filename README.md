@@ -1,5 +1,5 @@
 # Random Image Generator and Sharing App 
-This is a [Random Image Generator and Sharing App ](https://6jbps.csb.app/home) done with [React](https://reactjs.org/). All tasks are saved into browser's local storage only.
+This is a [Random Image Generator and Sharing App ](https://pxuqf.csb.app/home) done with [React](https://reactjs.org/). All tasks are saved into browser's local storage only.
 
 ## Visual Representation of My Project:
 
